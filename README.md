@@ -36,7 +36,7 @@ Self-hosted monitoring dashboard for a Jellyfin media server stack. Collects dat
 ### 1. Clone the repo
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/MediaSentinel.git C:\MediaSentinel
+git clone https://github.com/CleverUserNames/MediaSentinel.git C:\MediaSentinel
 cd C:\MediaSentinel
 ```
 
