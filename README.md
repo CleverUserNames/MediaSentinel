@@ -30,6 +30,7 @@ Self-hosted monitoring dashboard for a Jellyfin media server stack. Collects dat
 - A free [TMDB API](https://developer.themoviedb.org/docs) read token for recommendations
 
 ---
+I run the full jellyfin/Arr stack on my local server, with a seed box for initial grabs. I don't know if this will work with remote hosted jellyfin/Arr stack, or what it would take to get it working. 
 
 ## Quick Start
 
