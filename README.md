@@ -21,8 +21,8 @@ Self-hosted monitoring dashboard for a Jellyfin media server stack. Collects dat
 ---
 
 <img width="1151" height="1242" alt="MSscreencap1" src="https://github.com/user-attachments/assets/d3ce8244-9df4-451d-9a4c-cf460bfb39cc" />
-<img width="1105" height="952" alt="MSscreencap3" src="https://github.com/user-attachments/assets/602b24f3-40c8-49b6-bb69-1f97801b5535" />
 <img width="1153" height="893" alt="MSscreencap2" src="https://github.com/user-attachments/assets/32fecddf-d7c3-41bd-9e56-416f55614fb2" />
+<img width="1105" height="952" alt="MSscreencap3" src="https://github.com/user-attachments/assets/602b24f3-40c8-49b6-bb69-1f97801b5535" />
 <img width="1104" height="799" alt="MSscreencap4" src="https://github.com/user-attachments/assets/4e832ec4-823b-4a3f-b610-c25fb1d30b65" />
 
 ## Requirements
