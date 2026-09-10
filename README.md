@@ -1,5 +1,7 @@
 # MediaSentinel
 
+This is my first project using any sort of AI, local or cloud. I have used Plex for years, but recently got fed up with playback issues and paywalls so I switched to Jellyfin and this was built to help me identify issues. Please be gentle. 
+
 Self-hosted monitoring dashboard for a Jellyfin media server stack. Collects data from Jellyfin, Sonarr, Radarr, and Jellyseer every 15 minutes, analyzes it with a local AI model, and generates an HTML report with health scores, active transcodes, drive health, playback errors, import failures, and content recommendations.
 
 ---
