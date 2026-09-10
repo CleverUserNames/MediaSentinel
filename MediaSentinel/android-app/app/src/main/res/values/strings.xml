@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediaSentinel</string>
+    <string name="settings_title">Settings</string>
+    <string name="default_server_url">http://192.168.1.100:8765</string>
+    <string name="default_seer_url">http://192.168.1.100:5055</string>
+</resources>

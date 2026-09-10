@@ -1,0 +1,68 @@
+{
+  "server": {
+    "ip": "192.168.1.100",
+    "local_ai_host": "http://192.168.1.101:1234",
+    "local_ai_model": "YOUR_MODEL_NAME",
+    "ai_backend": "lmstudio"
+  },
+  "services": {
+    "jellyfin": {
+      "url": "http://192.168.1.100:8096",
+      "api_key": "YOUR_JELLYFIN_API_KEY"
+    },
+    "sonarr": {
+      "url": "http://192.168.1.100:8989",
+      "api_key": "YOUR_SONARR_API_KEY"
+    },
+    "radarr": {
+      "url": "http://192.168.1.100:7878",
+      "api_key": "YOUR_RADARR_API_KEY"
+    },
+    "jellyseer": {
+      "url": "http://192.168.1.100:5055",
+      "api_key": "YOUR_JELLYSEER_API_KEY"
+    },
+    "tmdb": {
+      "api_read_token": "YOUR_TMDB_API_READ_TOKEN"
+    }
+  },
+  "paths": {
+    "jellyfin_transcode": "C:\\ProgramData\\Jellyfin\\Server\\transcodes",
+    "jellyfin_log_dir":   "C:\\ProgramData\\Jellyfin\\Server\\log",
+    "smartctl":           "C:\\Program Files\\smartmontools\\bin\\smartctl.exe",
+    "system_drive":       "C:\\",
+    "smart_drives": [
+      {"dev": "/dev/sda", "type": "ata"},
+      {"dev": "/dev/sdb", "type": "ata"},
+      {"dev": "/dev/sdc", "type": "ata"},
+      {"dev": "/dev/sdd", "type": "ata"},
+      {"dev": "/dev/sde", "type": "nvme"}
+    ]
+  },
+  "thresholds": {
+    "transcode_warning_count":  3,
+    "disk_usage_warning_percent": null,
+    "error_log_lines":          200,
+    "missing_file_alert":       true,
+    "playback_error_alert":     true,
+    "drivepool_drive":          "K:\\",
+    "disk_free_good_gb":        2000,
+    "disk_free_warning_gb":     1500,
+    "disk_free_critical_gb":    1000,
+    "monitored_drives":         ["K:\\"]
+  },
+  "schedule": {
+    "monitor_interval_minutes": 15,
+    "full_report_cron":         "0 7 * * *"
+  },
+  "recommendations": {
+    "history_limit":        30,
+    "suggestions_per_item": 3,
+    "max_suggestions":      20,
+    "min_tmdb_rating":      6.5,
+    "exclude_genres":       [],
+    "jellyfin_users": [
+      {"name": "YOUR_USERNAME", "id": "YOUR_JELLYFIN_USER_ID"}
+    ]
+  }
+}
