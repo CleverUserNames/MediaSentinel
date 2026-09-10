@@ -39,7 +39,7 @@ Self-hosted monitoring dashboard for a Jellyfin media server stack. Collects dat
 git clone https://github.com/CleverUserNames/MediaSentinel.git C:\MediaSentinel
 cd C:\MediaSentinel
 ```
-
+OR Download the zip file and extract to the C: Drive. Rename the unzipped folder "MediaSentinel".
 ### 2. Configure
 
 ```powershell
